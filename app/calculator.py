@@ -1,5 +1,8 @@
 from app import utils
 
+def add_cool():
+    return None
+
 def add(a, b):
     return a + b
 
