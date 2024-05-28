@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.12.3
 def main():
     print("Starting the application...")
     test = None
