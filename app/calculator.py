@@ -17,6 +17,9 @@ def divide(a, b):
         return None  # This should raise an exception
     return a / b
 
+def divide_cool():
+        return None
+
 # Unused function
 def unused_function():
     pass
