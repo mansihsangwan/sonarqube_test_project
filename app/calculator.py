@@ -2,6 +2,12 @@ from app import utils
 
 def add_cool():
     return "testttttt"
+    try:
+        new = 5
+        output = new + 5
+        return output
+    except:
+        return None
     return None
 
 def add(a, b):
