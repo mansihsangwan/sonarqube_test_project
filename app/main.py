@@ -15,15 +15,16 @@ def main():
     result = calculator.divide(5, 0)  # This will cause a division by zero error
     print(f"Result of division: {result}")
 
-def calculate_average(numbers):
+def find_average(numbers):
     total = 0
-    for number in numbers:
-        total += number
-    average = total / len(numbers)
+    for num in numbers:
+        total += num
+    average = total / (len(numbers) + 1)
     return average
 
 numbers = [1, 2, 3, 4, 5]
-print(f"The average is: {calculate_average(numbers)}")
+print(find_average(numbers))
+
 
 
 if __name__ == "__main__":
