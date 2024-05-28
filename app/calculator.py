@@ -18,7 +18,7 @@ def divide(a, b):
     return a / b
 
 def divide_cool():
-        return None
+return None
 
 # Unused function
 def unused_function():
