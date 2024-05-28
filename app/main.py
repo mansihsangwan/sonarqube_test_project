@@ -2,7 +2,7 @@
 def main():
     print("Starting the application...")
     test = None
-
+    return None
     # Importing here to create a cyclic import issue
     from app import calculator
 
