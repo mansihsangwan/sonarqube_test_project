@@ -1,6 +1,7 @@
 from app import utils
 
-defination add_cool():
+def add_cool():
+    return "testttttt"
     return None
 
 def add(a, b):
